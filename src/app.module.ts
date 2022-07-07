@@ -11,7 +11,7 @@ import { MongooseModule } from '@nestjs/mongoose';
     AuthModule,
     UserModule,
     BookmarkModule,
-    MongooseModule.forRoot('mongodb+srv://Ahmads:Ahmad123@cluster0.boiu2.mongodb.net/navibits?retryWrites=true&w=majority')
+    MongooseModule.forRoot('MONGODB-URL')
   ],
   controllers: [AppController],
   providers: [AppService],
